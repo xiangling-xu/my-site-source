@@ -7,7 +7,7 @@
   pages={6059--6064},
   year={2023},
   publisher={Oxford University Press},
-  doi={https://doi.org/10.1093/mnras/stac3500}
+  doi={https://doi.org/10.1093/mnras/stac3500},
   abstract={In this paper, we report an interesting kinematic phenomenon around the halos' edge related to the splashback radius. After the shell-crossing, cosmic flow exhibits various rotational morphologies via stream-mixing. Vorticity is generated in a particular way that coincides with the large-scale structure. Notably, one specific flow morphology, which is spiraling inward and compressing in the third direction, concentrates around halos. A detailed examination that reveals a sharp change in the logarithmic derivative of its volume fraction, coincides with the location of the splashback radius defined as the outermost caustic structure. Such a feature encodes valuable phase space information and provides a new perspective on understanding the dynamical evolution of halos. As a volume-weighted quantity, the profile of flow morphology is purely kinematic. And unlike other related studies, the rotational flow morphologies capture the anisotropic phase structure in the multi-stream region.}
 }
 
@@ -17,7 +17,7 @@
   year={2023},
   school={ETH Zurich},
   publisher={ETH Library Research Collection},
-  doi={https://doi.org/10.3929/ethz-b-000613670}
+  doi={https://doi.org/10.3929/ethz-b-000613670},
   abstract={In this thesis, we explore the applications of the theory of operator algebras, such as C ∗ -algebras and von Neumann algebras, in quantum physics with a focus on the quantum bilocal network scenario. Originating from Heisenberg’s picture, the theory of operator algebras has become a fruitful field and a powerful mathematical tool in the study of quantum systems. Quantum nonlocality is essential for understanding the foundations of quantum mechanics, and quantum correlations in network scenarios provide a robust framework for its investigation.
 
 We combine the algebraic perspective with the study of quantum nonlocality to analyse the quantum bilocal network scenario, involving three parties, Alice, Bob, and Charlie, arranged linearly. In this scenario, two independent quantum sources are present, one shared between Alice and Bob, and the other shared between Bob and Charlie. Recent developments from [57, Renou & Xu, arXiv:2210.09065] and [35, Ligthart & Gross, arXiv:2212.11299] demonstrate the applicability of operator algebras in this context, offering a deeper understanding of quantum nonlocality in network settings.
@@ -56,4 +56,15 @@ This thesis serves as a reference for results in the theory of operator algebras
       primaryClass={quant-ph},
       url={https://arxiv.org/abs/2507.17006}, 
       abstract={Compiling Bell games under cryptographic assumptions replaces the need for physical separation, allowing nonlocality to be probed with a single untrusted device. While Kalai et al. (STOC'23) showed that this compilation preserves quantum advantages, its quantitative quantum soundness has remained an open problem. We address this gap with two primary contributions. First, we establish the \emph{first} quantitative quantum soundness bounds for every bipartite compiled Bell game whose optimal quantum strategy is finite-dimensional: any polynomial-time prover's score in the compiled game is negligibly close to the game's ideal quantum value. More generally, for all bipartite games we show that the compiled score cannot significantly exceed the bounds given by a newly formalized convergent \emph{sequential Navascués-Pironio-Acín (NPA) hierarchy}. Second, we provide a full characterization of this sequential NPA hierarchy, establishing it as a robust numerical tool that is of independent interest. Finally, for games without finite-dimensional optimal strategies, we explore the necessity of NPA approximation error for quantitatively bounding their compiled scores, linking these considerations to the complexity conjecture $\mathrm{MIP}^{\mathrm{co}}=\mathrm{coRE}$ and open challenges such as quantum homomorphic encryption correctness for ``weakly commuting'' quantum registers.}
+}
+
+@misc{baroni2025quantitativequantumsoundnessmultipartite,
+      title={Quantitative quantum soundness for all multipartite compiled nonlocal games}, 
+      author={Matilde Baroni and Igor Klep and Dominik Leichtle and Marc-Olivier Renou and Ivan Šupić and Lucas Tendick and Xiangling Xu},
+      year={2025},
+      eprint={2509.25145},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2509.25145}, 
+      abstract={Compiled nonlocal games transfer the power of Bell-type multi-prover tests into a single-device setting by replacing spatial separation with cryptography. Concretely, the KLVY compiler (STOC'23) maps any multi-prover game to an interactive single-prover protocol, using quantum homomorphic encryption. A crucial security property of such compilers is quantum soundness, which ensures that a dishonest quantum prover cannot exceed the original game's quantum value. For practical cryptographic implementations, this soundness must be quantitative, providing concrete bounds, rather than merely asymptotic. While quantitative quantum soundness has been established for the KLVY compiler in the bipartite case, it has only been shown asymptotically for multipartite games. This is a significant gap, as multipartite nonlocality exhibits phenomena with no bipartite analogue, and the difficulty of enforcing space-like separation makes single-device compilation especially compelling. This work closes this gap by showing the quantitative quantum soundness of the KLVY compiler for all multipartite nonlocal games. On the way, we introduce an NPA-like hierarchy for quantum instruments and prove its completeness, thereby characterizing correlations from operationally-non-signaling sequential strategies. We further develop novel geometric arguments for the decomposition of sequential strategies into their signaling and non-signaling parts, which might be of independent interest.}
 }
