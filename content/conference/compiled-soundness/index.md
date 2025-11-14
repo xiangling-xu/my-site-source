@@ -90,9 +90,7 @@ projects: []
 </style>
 
 <p class="text-sm text-gray-500 dark:text-gray-400">
-The multipartite result (arXiv:2509.25145) generalises and subsumes the earlier bipartite analysis. Talks given before 2025 correspond to the bipartite case, while later talks include the full multipartite framework.
-
-This talk has been presented at multiple venues. The date above is set to the most recent instance for correct ordering in the Talks list. Materials (slides/poster) are partially shared with twists
+The multipartite result (arXiv:2509.25145) generalizes and subsumes the earlier bipartite analysis. Talks given before 2025 correspond to the bipartite case, while later talks include the full multipartite framework. This talk has been presented at multiple venues. The date above is set to the most recent instance for correct ordering in the Talks list. Materials (slides/poster) are partially shared with twists
 </p>
 
 ### Talks
@@ -117,8 +115,17 @@ This talk has been presented at multiple venues. The date above is set to the mo
 
 {{< figure
     class="tight-cap"
+    src="GdRTeQ3.jpg"
+    alt="3rd Colloquium GDR TeQ at Grenoble"
+    caption="Image credit: *My wonderful colleagues*"
+    link="GdRTeQ3.jpg"
+    width="650"
+>}}
+
+{{< figure
+    class="tight-cap"
     src="iwota2025.jpg"
-    alt="IWOTA 2025 at Twente, Netherland"
+    alt="IWOTA 2025 at Twente"
     caption="Image credit: *IWOTA 2025 at Twente, Netherland*"
     link="iwota2025.jpg"
     width="650"
