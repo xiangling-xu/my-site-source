@@ -34,7 +34,7 @@ tags: [Quantum cryptography]
 featured: false
 
 image:
-  caption: 'Image credit: [**Matilde Baroni's Tikz code**]()'
+  caption: 'Image credit: [**Matilde Baroni**]()'
   focal_point: Right
 
 links:
