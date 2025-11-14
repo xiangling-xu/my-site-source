@@ -1,5 +1,5 @@
 ---
-title: Quantitative quantum soundness for all compiled nonlocal games with a sequential NPA hierarchy
+title: Quantitative quantum soundness for compiled nonlocal games and the sequential NPA hierarchy for completely positive maps
 
 # event: Hugo Blox Builder Conference
 # event_url: https://example.org
