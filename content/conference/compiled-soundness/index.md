@@ -96,8 +96,8 @@ The multipartite result (arXiv:2509.25145) generalizes and subsumes the earlier 
 ### Talks
 | Date | Event | Host / Location | Type |
 |---|---|---|---|
-| 2025-11 | **SIAM Conference on Optimization (OP26)**[^OP26] | Edinbrugh, United Kingdom | Invited |
-| 2026-01 | **QIP 2026**[^QIP2026] - 2 talks | Riga, Lativia | Contributed |
+| 2026-06 | **SIAM Conference on Optimization (OP26)**[^OP26] | Edinbrugh, United Kingdom | Invited |
+| 2026-01 | **QIP 2026**[^QIP2026] - *2 talks* | Riga, Lativia | Contributed |
 | 2025-11 | **3rd Colloquium GDR TeQ**[^GdRTeQ3] | Grenoble, France | Contributed |
 | 2025-09 | **YQIS25**[^yqis] | Barcelona, Spain | Contributed |
 | 2025-07 | **IWOTA 2025**[^iwota] | Twente, Netherland | Invited |
