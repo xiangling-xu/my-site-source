@@ -96,8 +96,9 @@ The multipartite result (arXiv:2509.25145) generalizes and subsumes the earlier 
 ### Talks
 | Date | Event | Host / Location | Type |
 |---|---|---|---|
-| 2025-11 | **SIAM Conference on Optimization (OP26)**[^OP26] | Edinbrugh, United Kingdom | Invited |
+| 2026-06 | **SIAM Conference on Optimization (OP26)**[^OP26] | Edinbrugh, United Kingdom | Invited |
 | 2026-01 | **QIP 2026**[^QIP2026] - 2 talks | Riga, Lativia | Contributed |
+| 2025-12 | **Quantum Meets**[^QuantumMeets] | Online | Invited |
 | 2025-11 | **3rd Colloquium GDR TeQ**[^GdRTeQ3] | Grenoble, France | Contributed |
 | 2025-09 | **YQIS25**[^yqis] | Barcelona, Spain | Contributed |
 | 2025-07 | **IWOTA 2025**[^iwota] | Twente, Netherland | Invited |
@@ -133,6 +134,7 @@ The multipartite result (arXiv:2509.25145) generalizes and subsumes the earlier 
 
 [^OP26]: <https://www.siam.org/conferences-events/siam-conferences/op26/>
 [^QIP2026]: <https://qip2026.lu.lv/>
+[^QuantumMeets]: <https://quantum-meets.github.io/>
 [^GdRTeQ3]: <https://gdrteq2025.sciencesconf.org/>
 [^yqis]: <https://www.icfo.eu/event/4000/8th-international-conference-for-young-quantum-information-scientists-yqis25-/>
 [^iwota]: <https://www.utwente.nl/en/iwota2025/>
