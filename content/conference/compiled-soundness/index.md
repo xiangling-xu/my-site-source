@@ -39,9 +39,9 @@ image:
 
 links:
   - type: slides
-    url: Xu_compiled_GdRTeQ.pdf
-  # - type: video
-  #   url: https://pirsa.org/24090110
+    url: compiled_soundness_quantumseminar.pdf
+  - type: video
+    url: https://www.youtube.com/watch?v=a4y-ABAqlvI
   # - type: poster
   #   url: bipartite_compiled_poster.pdf
   - type: website
