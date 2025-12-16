@@ -37,5 +37,5 @@ links:
 - name: URL
   url: https://arxiv.org/abs/2507.17006
 - name: Slides
-  url: https://xiangling-xu.github.io/conference/bipartite-compiled/
+  url: https://xiangling-xu.github.io/conference/compiled-soundness/
 ---

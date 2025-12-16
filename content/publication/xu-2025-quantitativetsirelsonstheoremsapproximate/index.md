@@ -30,5 +30,7 @@ links:
   url: https://arxiv.org/abs/2505.22309
 - name: URL
   url: https://arxiv.org/abs/2505.22309
+- name: Slides
+  url: https://xiangling-xu.github.io/conference/compiled-soundness/
 # featured: true
 ---
