@@ -4,10 +4,13 @@ authors:
 - Marc-Olivier Renou
 - Xiangling Xu
 - Laurens T. Ligthart
-date: '2024-01-01'
-publishDate: '2025-09-15T00:57:04.135215Z'
+date: '2026-01-09'
+publishDate: '2026-01-20T00:57:04.135215Z'
 publication_types:
-- manuscript
+- article-journal
+publication: '*Journal of Mathematical Physics*'
+hugoblox.ids: { doi: https://doi.org/10.1063/5.0211008 }
+doi: https://doi.org/10.1063/5.0211008
 abstract: Characterising the correlations that arise from locally measuring a single
   part of a joint quantum system is one of the main problems of quantum information
   theory. The seminal work [M. Navascués et al, NJP 10,7,073013 (2008)], known as
@@ -23,8 +26,6 @@ abstract: Characterising the correlations that arise from locally measuring a si
   network, the bilocal scenario, and explore its relations with the known generalisations.
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2210.09065
-- name: URL
   url: https://arxiv.org/abs/2210.09065
 - name: Slides
   url: https://xiangling-xu.github.io/conference/bilocal-npa/
