@@ -1,6 +1,6 @@
 ---
-title: 'Comment on \"Quantum theory based on real numbers cannot be experimentally
-  falsified\": On the compatibility of physical principles with information theory
+title: 'Comment on "Quantum theory based on real numbers cannot be experimentally
+  falsified": On the compatibility of physical principles with information theory
   for fermions'
 authors:
 - Fatemeh Moradi Kalarde
