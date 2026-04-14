@@ -2,7 +2,7 @@
 title: 'Quantum Nonlocality in Bilocal Networks: An Operator Algebraic Perspective'
 authors:
 - Xiangling Xu
-date: '2023-01-01'
+date: '2023-09-15'
 publishDate: '2025-09-15T00:57:04.127554Z'
 publication_types:
 - thesis
