@@ -96,6 +96,7 @@ The multipartite result (arXiv:2509.25145) generalizes and subsumes the earlier 
 ### Talks
 | Date | Event | Host / Location | Type |
 |---|---|---|---|
+| 2026-08 | **QCrypt**[^QCrypt26] | Ottawa, Canada | Contributed |
 | 2026-06 | **SIAM Conference on Optimization (OP26)**[^OP26] | Edinbrugh, United Kingdom | Invited |
 | 2026-01 | **QIP 2026**[^QIP2026] - 2 talks | Riga, Lativia | Contributed |
 | 2025-12 | **Quantum Meets**[^QuantumMeets] | Online | Invited |
@@ -132,6 +133,7 @@ The multipartite result (arXiv:2509.25145) generalizes and subsumes the earlier 
     width="650"
 >}}
 
+[^QCrypt26]: <https://qcrypt.net/2026/>
 [^OP26]: <https://www.siam.org/conferences-events/siam-conferences/op26/>
 [^QIP2026]: <https://qip2026.lu.lv/>
 [^QuantumMeets]: <https://quantum-meets.github.io/>
