@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: Research
 type: landing
 cms_exclude: true
 
@@ -12,20 +12,20 @@ banner:
   image: ''
 
 sections:
-  # - block: collection
-  #   content:
-  #     title: Selected Works
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     view: article-grid
-  #     columns: 2
+  - block: collection
+    content:
+      title: Selected Works
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
   - block: custom_publications
     content:
     # to change hardcoded title, go to layouts/partials/hbx/blocks/custom_publications/block.html, search the title up and change, on the top of the file
-      title: "Full List"
+      title: "Publications and Preprints"
     design:
       columns: "1"
    # normal citation form

@@ -28,7 +28,5 @@ abstract: |
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2505.22309
-- name: URL
-  url: https://arxiv.org/abs/2505.22309
 # featured: true
 ---

@@ -13,6 +13,4 @@ publication_types:
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2604.07425
-- name: URL
-  url: https://arxiv.org/abs/2604.07425
 ---

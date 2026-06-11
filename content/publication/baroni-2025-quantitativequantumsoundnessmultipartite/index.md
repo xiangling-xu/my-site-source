@@ -33,8 +33,6 @@ abstract: Compiled nonlocal games transfer the power of Bell-type multi-prover t
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2509.25145
-- name: URL
-  url: https://arxiv.org/abs/2509.25145
 - name: Slides
   url: https://xiangling-xu.github.io/conference/compiled-soundness/
 ---
