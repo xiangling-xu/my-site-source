@@ -18,5 +18,5 @@ abstract: |
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2606.03836
-  featured: true
+featured: true
 ---
