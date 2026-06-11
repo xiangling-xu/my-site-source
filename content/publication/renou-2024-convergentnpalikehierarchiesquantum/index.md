@@ -35,4 +35,9 @@ tags:
   - Quantum Nonlocality
   - Noncommutative Polynomial Optimization
   - Operator Algebras
+
+image:
+  # caption: 'Image credit: [**Unsplash**](https:)'
+  focal_point: ''
+  preview_only: false
 ---
