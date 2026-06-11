@@ -28,7 +28,11 @@ publishDate: '2024-09-18'
 authors:
   - admin
 
-tags: [Quantum network nonlocality]
+tags:
+  - Quantum Foundations
+  - Quantum Nonlocality
+  - Noncommutative Polynomial Optimization
+  - Operator Algebras
 
 # Is this a featured talk? (true/false)
 featured: false

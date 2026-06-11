@@ -28,7 +28,11 @@ publishDate: '2025-07-17'
 authors:
   - admin
 
-tags: [Quantum cryptography]
+tags:
+  - Quantum Cryptography
+  - Quantum Foundations
+  - Noncommutative Polynomial Optimization
+  - Operator Algebras
 
 # Is this a featured talk? (true/false)
 featured: false
