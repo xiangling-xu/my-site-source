@@ -29,4 +29,8 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2505.22309
 # featured: true
+
+tags:
+  - Quantum Foundations
+  - Operator Algebras
 ---

@@ -18,5 +18,14 @@ abstract: |
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2606.12363
+
 featured: true
+image:
+  # caption: 'Image credit: [**Unsplash**](https:)'
+  focal_point: ''
+  preview_only: false
+
+tags:
+  - Quantum Foundations
+  - Quantum Nonlocality
 ---

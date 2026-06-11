@@ -28,4 +28,7 @@ abstract: |
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2209.06488
+
+tags:
+  - Cosmological Large Scale Structures
 ---

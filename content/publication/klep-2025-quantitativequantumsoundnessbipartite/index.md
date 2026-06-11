@@ -36,4 +36,10 @@ links:
   url: https://arxiv.org/abs/2507.17006
 - name: Slides
   url: https://xiangling-xu.github.io/conference/compiled-soundness/
+
+tags:
+  - Quantum Cryptography
+  - Quantum Foundations
+  - Noncommutative Polynomial Optimization
+  - Operator Algebras
 ---

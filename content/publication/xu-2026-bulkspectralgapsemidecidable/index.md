@@ -18,5 +18,15 @@ abstract: |
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2606.03836
+
 featured: true
+image:
+  # caption: 'Image credit: [**Unsplash**](https:)'
+  focal_point: ''
+  preview_only: false
+
+tags:
+  - Quantum Many-Body Physics
+  - Noncommutative Polynomial Optimization
+  - Operator Algebras
 ---

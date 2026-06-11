@@ -30,4 +30,10 @@ abstract: |
   the potential of these abstract mathematical tools in uncovering new insights into
   quantum mechanics and motivates further research in the field using an operator
   algebraic perspective.
+
+tags:
+  - Quantum Foundations
+  - Quantum Nonlocality
+  - Noncommutative Polynomial Optimization
+  - Operator Algebras
 ---
