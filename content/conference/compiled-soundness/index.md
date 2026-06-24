@@ -121,6 +121,15 @@ The multipartite result (arXiv:2509.25145) generalizes and subsumes the earlier 
 
 {{< figure
     class="tight-cap"
+    src="QIP2026.jpg"
+    alt="QIP2026 at Riga"
+    caption="Image credit: *The organizers*"
+    link="QIP2026.jpg"
+    width="650"
+>}}
+
+{{< figure
+    class="tight-cap"
     src="GdRTeQ3.jpg"
     alt="3rd Colloquium GDR TeQ at Grenoble"
     caption="Image credit: *My wonderful colleagues*"
