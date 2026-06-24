@@ -42,8 +42,10 @@ image:
   focal_point: Right
 
 links:
-  - type: slides
+  - type: slides (compiled game focused)
     url: compiled_soundness_quantumseminar.pdf
+  - type: slides (seqNPA focused)
+    url: compiled_soundness_edinburgh.pdf
   - type: video
     url: https://www.youtube.com/watch?v=a4y-ABAqlvI
   # - type: poster
