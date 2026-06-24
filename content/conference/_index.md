@@ -1,5 +1,5 @@
 ---
-title: Talks and others
+title: Talks and more
 type: page
 cms_exclude: true
 #url: talk
