@@ -48,8 +48,8 @@ links:
     url: compiled_soundness_edinburgh.pdf
   - type: video
     url: https://www.youtube.com/watch?v=a4y-ABAqlvI
-  # - type: poster
-  #   url: bipartite_compiled_poster.pdf
+  - type: poster
+    url: compiled_poster.pdf
   - type: website
     url: https://xiangling-xu.github.io/publication/baroni-2025-quantitativequantumsoundnessmultipartite/
 

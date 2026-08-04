@@ -18,6 +18,8 @@ abstract: |
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2606.03836
+- name: Slides
+  url: spectralgap_poster.pdf
 
 featured: true
 image:

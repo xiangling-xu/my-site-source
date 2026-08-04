@@ -18,6 +18,8 @@ abstract: |
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2606.12363
+- name: Slides
+  url: fermion_more_nonlocal.pdf
 
 featured: true
 image:
