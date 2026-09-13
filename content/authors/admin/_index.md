@@ -51,9 +51,9 @@ profiles:
 
 interests:
   - Quantum Information
-  - Quantum Foundations
   - Operator Algebras
   - Noncommutative Polynomial Optimization
+  - Quantum Foundations
 
 # education:
   # - area: PhD Infomatique
