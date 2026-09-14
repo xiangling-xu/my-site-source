@@ -19,6 +19,8 @@ links:
   url: https://arxiv.org/abs/2509.25145
 - name: Slides
   url: https://xiangling-xu.github.io/conference/compiled-soundness/
+- name: Poster
+  url: compiled_poster.pdf
 
 tags:
   - Quantum Cryptography

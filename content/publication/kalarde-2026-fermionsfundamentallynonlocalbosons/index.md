@@ -20,6 +20,8 @@ links:
   url: https://arxiv.org/abs/2606.12363
 - name: Slides
   url: fermion_more_nonlocal.pdf
+- name: Poster
+  url: fermion_poster.pdf
 
 featured: true
 image:
