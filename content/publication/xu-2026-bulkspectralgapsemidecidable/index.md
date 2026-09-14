@@ -19,6 +19,8 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2606.03836
 - name: Slides
+  url: spectral_gap.pdf
+- name: Poster
   url: spectralgap_poster.pdf
 
 featured: true
