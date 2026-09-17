@@ -101,7 +101,7 @@
 }
 
 .biography-on-top .avatar-wrapper {
-  width: min(280px, 30svh, 100%) !important;
+  width: min(304px, 34svh, 100%) !important;
   height: auto !important;
   aspect-ratio: 1;
 }
@@ -260,7 +260,7 @@
   }
 
   .biography-on-top .avatar-wrapper {
-    width: min(320px, 100%) !important;
+    width: min(344px, 100%) !important;
   }
 
   .home-biography-grid {
@@ -269,9 +269,16 @@
   }
 }
 
+/* A little more portrait space on desktop; keep the tablet columns unchanged. */
+@media (min-width: 64rem) {
+  .home-biography-grid {
+    grid-template-columns: minmax(12rem, 0.9fr) minmax(0, 2fr);
+  }
+}
+
 @media (max-width: 47.999rem) and (max-height: 47.5rem) {
   .biography-on-top .resume-biography { padding-top: 4rem; }
-  .biography-on-top .avatar-wrapper { width: min(240px, 26svh, 100%) !important; }
+  .biography-on-top .avatar-wrapper { width: min(260px, 30svh, 100%) !important; }
 }
 
 /* Stacked entries on larger screens only need a rule just beyond their text. */
