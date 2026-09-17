@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Xiangling Xu 许湘灵
+display_name_en: Xiangling Xu
+display_name_cn: 许湘灵
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -27,7 +29,7 @@ role: PhD student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: PhiQus, Inria Paris-Saclay
+  - name: PhIQuS, Inria Saclay
     url: https://team.inria.fr/phiqus/
 
 # Social network links
@@ -51,9 +53,9 @@ profiles:
 
 interests:
   - Quantum Information
+  - Quantum Foundations
   - Operator Algebras
   - Noncommutative Polynomial Optimization
-  - Quantum Foundations
 
 # education:
   # - area: PhD Infomatique
@@ -172,8 +174,8 @@ interests:
 #       Recognized for contributions to scaling laws in deep learning.
 ---
 
-I am a **mathematical physicist** working in quantum information and foundations. My research focuses on quantum network correlations, many-body physics, and quantum cryptography, using tools from operator algebras and noncommutative polynomial optimization.
+I am a mathematical physicist working in quantum information and foundations. My research focuses on quantum network correlations, many-body physics, and quantum cryptography, using tools from operator algebras and noncommutative polynomial optimization.
 
-Since October 2023, I have been a PhD student with [PhiQus](https://team.inria.fr/phiqus/) at Inria Paris-Saclay, supervised by [Marc-Olivier Renou](https://marcolivierrenou.com/).
+Since October 2023, I have been a PhD student with PhIQuS at Inria Saclay, supervised by [Marc-Olivier Renou](https://marcolivierrenou.com/).
 
-Feel free to reach me at *xu[dot]xiangling[at]inria[dot]fr* or check out my [CV](https://xiangling-xu.github.io/uploads/CV_phdphase.pdf) in the navigation bar.
+Feel free to reach me at *xu[dot]xiangling[at]inria[dot]fr* or check out my [CV](/uploads/CV_phdphase.pdf) in the navigation bar.

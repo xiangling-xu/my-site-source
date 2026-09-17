@@ -12,7 +12,8 @@ banner:
   image: ''
 
 sections:
-  - block: collection
+  - block: selected-publications
+    id: selected-works
     content:
       title: Selected Works
       filters:
@@ -20,14 +21,16 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
-      columns: 2
+      spacing:
+        padding: ['2rem', '0', '1.75rem', '0']
   - block: custom_publications
+    id: publications
     content:
-    # to change hardcoded title, go to layouts/partials/hbx/blocks/custom_publications/block.html, search the title up and change, on the top of the file
       title: "Publications and Preprints"
     design:
       columns: "1"
+      spacing:
+        padding: ['0', '0', '3rem', '0']
    # normal citation form
   # - block: collection
   #   content:

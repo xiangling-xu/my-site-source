@@ -27,7 +27,7 @@ publishDate: '2024-06-03'
 authors:
   - admin
 
-tags: [Random]
+tags: [Conferences, Research Community]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -63,7 +63,8 @@ projects: []
 
 ### Participation
 
-- [Summer 2025 Aussois Mini Workshop, Aussois, France](https://vqf.iqoqi.oeaw.ac.at) — Vienna, Austria.
+- [Quantum Information in Aussois 2026](https://project.inria.fr/qia2026/) — Aussois, France.
+- Summer 2025 Aussois Mini Workshop — Aussois, France.
 - [Vienna Quantum Foundations Conference 2024](https://vqf.iqoqi.oeaw.ac.at) — Vienna, Austria.
 - [POP23 — Future Trends in Polynomial Optimization](https://homepages.laas.fr/henrion/pop23/) — Toulouse, France.
 

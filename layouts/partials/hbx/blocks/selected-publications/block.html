@@ -1,0 +1,23 @@
+{{ $pages := where site.RegularPages "Type" "publication" }}
+{{ $featured := where $pages "Params.featured" true }}
+<div class="research-container">
+  <div class="research-section-heading">
+    <h1 class="research-section-title">{{ .wcBlock.content.title }}</h1>
+  </div>
+  <div class="selected-publications-grid">
+    {{ range $featured.ByDate.Reverse }}
+    <article class="selected-publication">
+      <a class="selected-publication-link" href="{{ .RelPermalink }}">
+        {{ with .Resources.GetMatch "featured*" }}
+        {{ $preview := .Resize "800x webp" }}
+        <div class="selected-publication-figure">
+          <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}" alt="" decoding="async">
+        </div>
+        {{ end }}
+        <p class="selected-publication-category">{{ with .Params.tags }}{{ index . 0 }}{{ end }}</p>
+        <h2>{{ .Title }}</h2>
+      </a>
+    </article>
+    {{ end }}
+  </div>
+</div>

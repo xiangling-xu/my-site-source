@@ -1,0 +1,2 @@
+{{ $script := resources.Get "js/responsive-navbar.js" | resources.Minify | resources.Fingerprint "sha256" }}
+<script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>

@@ -1,11 +1,11 @@
 ---
-title: Talks and more
+title: Talks and conferences
 type: page
 cms_exclude: true
 #url: talk
 
 # View
-view: card
+view: compact-talk
 
 # Optional cover image (relative to `assets/media/` folder).
 image:

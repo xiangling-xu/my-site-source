@@ -12,7 +12,7 @@ title: Quantitative quantum soundness for compiled nonlocal games and the sequen
 #   postcode: ''
 #   country: ''
 
-summary: Talks on quantum soundness of compiled nonlocal games, and sequential NPA hierarchy for completely positive maps. Earlier variant of the talks were on bipartite compiled games while later ones are on all multipartite compiled games due to the newer results.
+summary: Quantitative bounds for compiled nonlocal games through a convergent hierarchy for sequential quantum strategies.
 abstract: |
   Compiled nonlocal games transfer the power of Bell-type multi-prover tests into a single-device setting by replacing spatial separation with cryptography. Concretely, the KLVY compiler (STOC'23) maps any multi-prover game to an interactive single-prover protocol, using quantum homomorphic encryption. A crucial security property of such compilers is quantum soundness, which ensures that a dishonest quantum prover cannot exceed the original game's quantum value. For practical cryptographic implementations, this soundness must be quantitative, providing concrete bounds rather than merely asymptotic. While quantitative quantum soundness has been established for the KLVY compiler in the bipartite case, it has only been shown asymptotically for multipartite games. This is a significant gap, as multipartite nonlocality exhibits phenomena with no bipartite analogue, and the difficulty of enforcing space-like separation makes single-device compilation especially compelling. This work closes this gap by showing the *quantitative quantum soundness* upper bounds of the KLVY compiler for *all multipartite* nonlocal games. On the way, we introduce an *NPA-like hierarchy for quantum instruments* and prove its completeness, thereby characterizing correlations from operationally-non-signaling sequential strategies. This NPA-like hierarchy can be seen to complement previous multipartite generalizations of the S-G-HJW purification theorem, which takes a central role in quantum information, nonlocality, and contextuality. We further develop novel geometric arguments for the decomposition of sequential strategies into their signaling and non-signaling parts, which might be of independent interest.
 
@@ -111,11 +111,11 @@ The multipartite result (arXiv:2509.25145) generalizes and subsumes the earlier 
 | 2025-07 | **IWOTA 2025**[^iwota] | Twente, Netherland | Invited |
 | 2025-06 | **IQC-PCQT-Quantum Saclay Workshop**[^saclay] | Paris, France | Invited |
 
-<!-- # Poster sessions
+### Poster sessions
+
 | Date | Event | Host / Location |
 |---|---|---|
-| 2024-11 | **YQIS24**[^yqis] | Inria Paris, Paris (FR) |
-| 2024-11 | **GDR TeQ 2024**[^gdr] | Sorbonne University, Paris (FR) | -->
+| 2026-08 | **[CQCC & GQSF 2026](https://ccf.org.cn/CQCC2026)** | Shenzhen, China |
 
 *Also presented at various internal group meetings during research visits.*
 

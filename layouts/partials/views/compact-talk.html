@@ -1,0 +1,13 @@
+{{ $item := .item }}
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+<article class="compact-talk" aria-labelledby="talk-title-{{ $item.File.UniqueID }}">
+  <a class="compact-talk-image" href="{{ $item.RelPermalink }}" aria-label="{{ $item.Title }}">
+    {{ with $resource }}
+    {{ $preview := .Resize "900x webp" }}
+    <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}" alt="" loading="lazy" decoding="async">
+    {{ end }}
+  </a>
+  <h2 id="talk-title-{{ $item.File.UniqueID }}"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h2>
+  <p class="compact-talk-summary">{{ $item.Params.summary | plainify }}</p>
+  <ul class="compact-talk-keywords" aria-label="Topics">{{ range first 2 $item.Params.tags }}<li>{{ . }}</li>{{ end }}</ul>
+</article>

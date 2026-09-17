@@ -17,7 +17,8 @@ main:
     url: /post/
     weight: 13
   - name: CV
-    url: uploads/CV_phdphase.pdf
+    # An absolute URL preserves the case of the existing published PDF filename.
+    url: https://xiangling-xu.github.io/uploads/CV_phdphase.pdf
     weight: 40
   # - name: Experience
   #   url: experience/

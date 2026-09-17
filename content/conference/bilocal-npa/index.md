@@ -12,7 +12,7 @@ title: Characterizing quantum bilocal networks with generalized NPA hierarchies
 #   postcode: ''
 #   country: ''
 
-summary: Talks and posters on my work on quantum bilocal network scenarios.
+summary: Characterizing quantum correlations in networks with two independent sources using operator algebras and convergent semidefinite hierarchies.
 abstract: |
   Characterising the correlations that arise from locally measuring a single part of a joint quantum system is one of the main problems of quantum information theory. The seminal work [M. Navascu´es et al, NJP 10,7,073013 (2008)], known as the NPA hierarchy, reformulated this question as a polynomial optimisation problem over noncommutative variables and proposed a convergent hierarchy of necessary conditions, each testable using semidefinite programming. More recently, the problem of characterising the quantum network correlations, which arise when locally measuring several independent quantum systems distributed in a network, has received considerable interest. Several generalisations of the NPA hierarchy, such as the Scalar Extension [Pozas-Kerstjens et al, Phys. Rev. Lett. 123, 140503 (2019)], were introduced while their converging sets remain unknown. In this work, we introduce a new hierarchy, prove its equivalence to the Scalar Extension, and characterise its convergence in the case of the simplest network, the bilocal scenario, and explore its relations with the known generalisations.
 
@@ -29,10 +29,9 @@ authors:
   - admin
 
 tags:
-  - Quantum Foundations
   - Quantum Nonlocality
-  - Noncommutative Polynomial Optimization
   - Operator Algebras
+  - Noncommutative Polynomial Optimization
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -144,4 +143,3 @@ This talk has been presented at multiple venues. The date above is set to the mo
 [^gdr]: <https://gdrteq2024.sciencesconf.org/>
 
 </div>
-

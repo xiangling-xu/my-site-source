@@ -21,6 +21,31 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ''
+      education:
+        title: Education
+        items:
+          - institutions: ['Institut Polytechnique de Paris']
+            institution_short: IP Paris
+            research_affiliation: Inria Saclay
+            logos:
+              - { file: ipp.png, name: Institut Polytechnique de Paris }
+            degree: PhD, Informatique
+            location: France
+            dates: 2023–Present
+          - institutions: ['ETH Zürich']
+            institution_short: ETH Zürich
+            logos:
+              - { file: eth.svg, name: ETH Zürich }
+            degree: MSc, Mathematics
+            location: Switzerland
+            dates: 2020–2023
+          - institutions: ['University of Toronto']
+            institution_short: University of Toronto
+            logos:
+              - { file: toronto.svg, name: University of Toronto }
+            degree: BSc, Mathematics and Physics (Specialist)
+            location: Canada
+            dates: 2016–2020
       # Show a call-to-action button under your biography? (optional)
       # button:
       #   text: Download CV
@@ -30,32 +55,14 @@ sections:
         # education: Education
         interests: Research Interests
     design:
+      spacing:
+        padding: ['0', '0', '0', '0']
       # Apply a gradient background
       css_class: biography-on-top g-gradient-to-b from-sky-250 via-sky-100 to-white dark:from-slate-800 dark:via-sky-900 dark:to-slate-950  # hbx-bg-gradient
       # Avatar customization
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: rounded # Options: circle (default), square, rounded
-  - block: features
-    content:
-      title: ''
-      # The 'features' block is responsive. It will be 3 columns on large screens,
-      # and automatically adjust to 2 or 1 column on smaller screens.
-      columns: '3'
-      items:
-        - name: '**PhD in Informatique**'
-          description: '<span class="text-lg font-semibold text-gray-900 dark:text-white">Inria Paris-Saclay<br>& Institut Polytechnique de Paris</span><br>France • 2023–Present'
-          icon: hero/academic-cap
-        - name: '**MSc in Mathematics**'
-          description: '<span class="text-lg font-semibold text-gray-900 dark:text-white">ETH Zürich</span><br>Switzerland • 2020–2023'
-          icon: hero/academic-cap
-        - name: '**BSc in Mathematics and Physics**'
-          description: '<span class="text-lg font-semibold text-gray-900 dark:text-white">University of Toronto</span><br>Canada • 2016–2020'
-          icon: hero/academic-cap
-    design:
-      # This ensures the background color matches the rest of the page.
-      # You can also use 'hbx-bg-gradient' or other classes if you prefer.
-      css_class: compact-section-top g-gradient-to-b from-sky-250 via-sky-100 to-white dark:from-slate-800 dark:via-sky-900 dark:to-slate-950
 
   
   # - block: markdown
