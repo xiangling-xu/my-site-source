@@ -660,3 +660,39 @@
   .compact-talk:hover .compact-talk-image img { transform: scale(1.025); }
   .selected-publication:hover .selected-publication-figure img { transform: scale(1.01); }
 }
+
+/* Homepage-only language switch: shares the About heading's existing row. */
+.resume-biography [hidden] { display: none !important; }
+.home-language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.125rem;
+  margin-left: auto;
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: #64748b;
+}
+.home-language-switch button {
+  padding: 0.4rem 0.25rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+.home-language-switch button[aria-pressed="true"] {
+  color: #334155;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  text-decoration-thickness: 1px;
+}
+.home-language-switch button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.dark .home-language-switch { color: #94a3b8; }
+.dark .home-language-switch button[aria-pressed="true"] { color: #e2e8f0; }
+.biography-on-top .bio-text[lang="zh-Hans"] { line-height: 1.85; }
+.biography-on-top .bio-text .home-language-note {
+  font-size: 0.8125rem;
+  color: #64748b;
+}
+.dark .biography-on-top .bio-text .home-language-note { color: #94a3b8; }

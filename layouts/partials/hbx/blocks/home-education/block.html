@@ -4,7 +4,7 @@
     <span class="home-section-icon bg-primary-100 dark:bg-primary-900/50 text-primary-600 dark:text-primary-400" aria-hidden="true">
       {{ partial "functions/get_icon" (dict "name" "hero/academic-cap" "attributes" `class="w-6 h-6"`) }}
     </span>
-    <h2 id="education-title" class="home-section-title text-gray-900 dark:text-white">{{ $block.content.title }}</h2>
+    <h2 id="education-title" class="home-section-title text-gray-900 dark:text-white">{{ partial "home-language-text.html" $block.content.title }}</h2>
   </div>
   <ul class="home-education-list">
     {{ range $block.content.items }}
@@ -18,10 +18,10 @@
         {{ end }}
       </div>
       <div class="home-education-details">
-        <h3 class="home-education-degree text-gray-900 dark:text-white">{{ .degree }}</h3>
-        {{ with .research_affiliation }}<p class="home-education-affiliation" aria-label="Research affiliation: {{ . }}">{{ . }}</p>{{ end }}
+        <h3 class="home-education-degree text-gray-900 dark:text-white">{{ partial "home-language-text.html" .degree }}</h3>
+        {{ with .research_affiliation }}<p class="home-education-affiliation" aria-label="Research affiliation: {{ . }}">{{ partial "home-language-text.html" . }}</p>{{ end }}
       </div>
-      <p class="home-education-meta text-gray-500 dark:text-gray-400"><span>{{ .institution_short }}</span> · <span>{{ .location }}</span> · <span>{{ .dates }}</span></p>
+      <p class="home-education-meta text-gray-500 dark:text-gray-400"><span>{{ partial "home-language-text.html" .institution_short }}</span> · <span>{{ partial "home-language-text.html" .location }}</span> · <span>{{ partial "home-language-text.html" .dates }}</span></p>
     </li>
     {{ end }}
   </ul>

@@ -1,0 +1,26 @@
+labels:
+  'About me': 简介
+  'Research Interests': 研究方向
+  'Education': 教育背景
+  'PhD student': 博士生
+  'Quantum Information': 量子信息
+  'Quantum Foundations': 量子理论基础
+  'Operator Algebras': 算子代数
+  'Noncommutative Polynomial Optimization': 非交换多项式优化
+  'PhD, Informatique': 计算机科学博士（在读）
+  'MSc, Mathematics': 数学硕士
+  'BSc, Mathematics and Physics (Specialist)': 数学与物理学学士（Specialist 专业）
+  'IP Paris': 巴黎理工学院
+  'ETH Zürich': 苏黎世联邦理工学院
+  'University of Toronto': 多伦多大学
+  'Inria Saclay': Inria 萨克雷中心
+  'France': 法国
+  'Switzerland': 瑞士
+  'Canada': 加拿大
+  '2023–Present': 2023–至今
+intro: |
+  我是一名从事量子信息与量子理论基础研究的数学物理研究者。我的研究方向包括量子网络关联、多体物理与量子密码学，主要使用算子代数与非交换多项式优化等方法。
+
+  自 2023 年 10 月起，我在 Inria 萨克雷中心的 PhIQuS 小组攻读博士学位，导师为 [Marc-Olivier Renou](https://marcolivierrenou.com/)。此前，我分别于 ETH Zürich 与 University of Toronto 获得数学硕士及数学与物理学学士学位。
+
+  欢迎通过 *xu[dot]xiangling[at]inria[dot]fr* 与我联系，也可查看导航栏中的[个人简历](/uploads/CV_phdphase.pdf)。

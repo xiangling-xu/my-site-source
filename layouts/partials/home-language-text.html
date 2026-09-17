@@ -1,0 +1,6 @@
+{{- $zh := index site.Data.home_zh.labels . -}}
+{{- if $zh -}}
+<span data-home-language="en" lang="en">{{ . }}</span><span data-home-language="zh" lang="zh-Hans" hidden>{{ $zh }}</span>
+{{- else -}}
+{{ . }}
+{{- end -}}

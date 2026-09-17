@@ -92,7 +92,7 @@
           {{- end -}}
           
           <p class="home-profile-affiliation text-gray-600 dark:text-gray-300">
-            {{ with $person.role }}<span class="home-profile-role text-primary-600 dark:text-primary-400">{{ . }}</span>{{ end }}
+            {{ with $person.role }}<span class="home-profile-role text-primary-600 dark:text-primary-400">{{ partial "home-language-text.html" . }}</span>{{ end }}
             {{ range $person.organizations }}
             <span class="home-profile-organization">
               {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .name }}{{ if .url }}</a>{{ end }}
@@ -143,11 +143,20 @@
             {{ $i18n_about := i18n "about_me" }}
             {{ $about_default := cond (eq $i18n_about "about_me") "Professional Summary" $i18n_about }}
             {{ $about_heading := $block.content.headings.about | default $about_default }}
-            <h2 class="home-section-title text-gray-900 dark:text-white">{{ $about_heading }}</h2>
+            <h2 class="home-section-title text-gray-900 dark:text-white">{{ partial "home-language-text.html" $about_heading }}</h2>
+            <div class="home-language-switch" role="group" aria-label="Homepage language / 首页语言" hidden>
+              <button type="button" data-set-home-language="en" lang="en" aria-pressed="true">EN</button>
+              <span aria-hidden="true">/</span>
+              <button type="button" data-set-home-language="zh" lang="zh-Hans" aria-pressed="false">中文</button>
+            </div>
           </div>
           <div class="home-intro prose dark:prose-invert text-gray-800 dark:text-gray-200">
-            <div class="bio-text" {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
+            <div class="bio-text" data-home-language="en" lang="en" {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
               {{ . }}
+            </div>
+            <div class="bio-text" data-home-language="zh" lang="zh-Hans" hidden>
+              {{ site.Data.home_zh.intro | $page.RenderString (dict "display" "block") }}
+              <p class="home-language-note">仅首页提供中文版本</p>
             </div>
           </div>
         </div>
@@ -172,11 +181,11 @@
               {{ partial "functions/get_icon" (dict "name" "sparkles" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
             </div>
             {{ $interests_heading := $block.content.headings.interests | default (i18n "interests") }}
-            <h2 class="home-section-title text-gray-900 dark:text-white">{{ $interests_heading | markdownify }}</h2>
+            <h2 class="home-section-title text-gray-900 dark:text-white">{{ partial "home-language-text.html" $interests_heading }}</h2>
           </div>
           <ul class="home-research-interests">
             {{ range $person.interests }}
-            <li class="bg-primary-50 dark:bg-gray-800 text-primary-800 dark:text-primary-200">{{ . | markdownify }}</li>
+            <li class="bg-primary-50 dark:bg-gray-800 text-primary-800 dark:text-primary-200">{{ partial "home-language-text.html" . }}</li>
             {{ end }}
           </ul>
         </div>
