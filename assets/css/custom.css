@@ -878,3 +878,22 @@ body.page-wrapper .biography-on-top .bio-text a {
   text-decoration-color: var(--academic-muted);
 }
 body.page-wrapper .biography-on-top .bio-text a:hover { color: var(--academic-accent); }
+
+/* Keep all talk topics separate from the summary without prominent badges. */
+body.page-wrapper .compact-talk-keywords {
+  gap: 0.25rem 0.875rem;
+  margin-top: 0.5rem;
+  padding-top: 0.625rem;
+  border-top: 1px solid var(--academic-line);
+}
+body.page-wrapper .compact-talk-keywords li {
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--academic-muted);
+  max-width: 100%;
+  overflow-wrap: break-word;
+}

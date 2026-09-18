@@ -9,5 +9,5 @@
   </a>
   <h2 id="talk-title-{{ $item.File.UniqueID }}"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h2>
   <p class="compact-talk-summary">{{ $item.Params.summary | plainify }}</p>
-  <ul class="compact-talk-keywords" aria-label="Topics">{{ range first 2 $item.Params.tags }}<li>{{ . }}</li>{{ end }}</ul>
+  <ul class="compact-talk-keywords" aria-label="Topics">{{ range $item.Params.tags }}<li>{{ . }}</li>{{ end }}</ul>
 </article>
