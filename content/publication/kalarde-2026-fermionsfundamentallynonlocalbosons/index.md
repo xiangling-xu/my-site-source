@@ -23,6 +23,7 @@ links:
 - name: Poster
   url: fermion_poster.pdf
 
+selected_summary: Self-testing proves that fermionic correlations in distributed computation cannot be reproduced by qubit- or boson-based protocols without additional communication.
 featured: true
 image:
   # caption: 'Image credit: [**Unsplash**](https:)'

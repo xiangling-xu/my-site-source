@@ -14,8 +14,8 @@
           <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}" alt="" decoding="async">
         </div>
         {{ end }}
-        <p class="selected-publication-category">{{ with .Params.tags }}{{ range first 2 . }}<span>{{ . }}</span>{{ end }}{{ end }}</p>
         <h2>{{ .Title }}</h2>
+        {{ with .Params.selected_summary }}<p class="selected-publication-summary">{{ . }}</p>{{ end }}
       </a>
     </article>
     {{ end }}
