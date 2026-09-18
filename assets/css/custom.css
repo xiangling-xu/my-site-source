@@ -129,7 +129,7 @@
   display: flex;
   align-items: center;
   gap: 0.625rem;
-  margin: 0 0 1.5rem;
+  margin: 0 0 0.875rem;
   font-size: var(--home-heading-size);
 }
 
@@ -153,6 +153,10 @@
 .biography-on-top .bio-text p {
   text-wrap: pretty;
   overflow-wrap: break-word;
+}
+
+.biography-on-top .bio-text > :first-child {
+  margin-top: 0;
 }
 
 .biography-on-top .bio-text > :last-child {
@@ -201,7 +205,7 @@
 
 .home-education-entry {
   min-width: 0;
-  padding-top: 1rem;
+  padding-top: 0.75rem;
   border-top: 1px solid #94a3b840;
 }
 
@@ -352,7 +356,7 @@
 
 /* The navigation script selects inline or collapsed from measured content. */
 #site-header.header {
-  padding-block: 0.375rem;
+  padding-block: 0.125rem;
 }
 
 #site-header .navbar {
@@ -623,7 +627,7 @@
 .compact-talk {
   display: grid;
   grid-template-rows: subgrid;
-  grid-row: span 3;
+  grid-row: span 4;
   min-width: 0;
   padding: 0.875rem;
   margin-bottom: 1.5rem;
@@ -780,3 +784,97 @@
 @media (min-width: 40rem) {
   .selected-publication h2 { margin-top: 0.75rem; }
 }
+
+/* Academic palette: shared by the homepage, publications, and talks. */
+:root {
+  --academic-page: #fafbfc;
+  --academic-surface: #f1f3f5;
+  --academic-text: #24272c;
+  --academic-muted: #59616d;
+  --academic-line: #dddfe2;
+  --academic-accent: #285ea8;
+  --academic-accent-soft: #285ea812;
+}
+html.dark {
+  --academic-page: #18191b;
+  --academic-surface: #222326;
+  --academic-text: #e5e7eb;
+  --academic-muted: #adb4bf;
+  --academic-line: #35383e;
+  --academic-accent: #8ab4ea;
+  --academic-accent-soft: #8ab4ea14;
+}
+body.page-wrapper,
+body.page-wrapper .page-body,
+body.page-wrapper .biography-on-top,
+body.page-wrapper .resume-biography,
+body.page-wrapper .page-footer {
+  background-color: var(--academic-page);
+  background-image: none;
+  color: var(--academic-text);
+}
+body.page-wrapper #site-header {
+  background: var(--academic-surface);
+  color: var(--academic-text);
+  border-bottom: 1px solid var(--academic-line);
+  box-shadow: none;
+}
+body.page-wrapper :is(.text-gray-900, .text-gray-800, .dark\:text-white, .dark\:text-gray-200),
+body.page-wrapper .home-education-affiliation {
+  color: var(--academic-text);
+}
+body.page-wrapper :is(.text-gray-500, .text-gray-600, .text-gray-700, .dark\:text-gray-300, .dark\:text-gray-400),
+body.page-wrapper :is(.selected-publication-summary, .compact-talk-summary, .publication-authors, .publication-venue, .publication-actions, .publication-number, .publication-year-heading),
+body.page-wrapper .biography-on-top .bio-text .home-language-note,
+body.page-wrapper .home-language-switch,
+body.page-wrapper .page-footer {
+  color: var(--academic-muted);
+}
+body.page-wrapper .prose {
+  color: var(--academic-text);
+  --tw-prose-body: var(--academic-text);
+  --tw-prose-headings: var(--academic-text);
+  --tw-prose-bold: var(--academic-text);
+  --tw-prose-links: var(--academic-accent);
+  --tw-prose-counters: var(--academic-muted);
+  --tw-prose-captions: var(--academic-muted);
+  --tw-prose-quotes: var(--academic-text);
+  --tw-prose-quote-borders: var(--academic-line);
+  --tw-prose-hr: var(--academic-line);
+}
+body.page-wrapper :is(.text-primary-600, .text-primary-800, .dark\:text-primary-400, .dark\:text-primary-200),
+body.page-wrapper .home-profile-role,
+body.page-wrapper .prose a {
+  color: var(--academic-accent);
+}
+body.page-wrapper .home-section-icon {
+  background: var(--academic-accent-soft);
+  color: var(--academic-accent);
+}
+body.page-wrapper .home-section-icon svg { color: inherit; }
+body.page-wrapper .home-research-interests li,
+body.page-wrapper .compact-talk-keywords li,
+body.page-wrapper .home-profile-links > a {
+  background: var(--academic-surface);
+  color: var(--academic-muted);
+  border-color: var(--academic-line);
+}
+body.page-wrapper .home-profile-links > a:hover { color: var(--academic-accent); }
+body.page-wrapper .compact-talk {
+  background: var(--academic-surface);
+  border-color: var(--academic-line);
+  box-shadow: none;
+}
+body.page-wrapper :is(.home-education-entry, .publication-list),
+body.page-wrapper .page-footer > footer {
+  border-color: var(--academic-line);
+}
+body.page-wrapper .publication-year-heading::after { background: var(--academic-line); }
+body.page-wrapper .biography-on-top .home-portrait { border-color: var(--academic-line); }
+body.page-wrapper .home-language-switch button[aria-pressed="true"] { color: var(--academic-text); }
+/* Keep biography links understated while retaining the underline. */
+body.page-wrapper .biography-on-top .bio-text a {
+  color: inherit;
+  text-decoration-color: var(--academic-muted);
+}
+body.page-wrapper .biography-on-top .bio-text a:hover { color: var(--academic-accent); }
