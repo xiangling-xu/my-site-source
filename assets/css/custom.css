@@ -721,8 +721,12 @@
   margin-top: 0;
 }
 
-/* Three selected papers share a row when the research page has enough space. */
-@media (min-width: 64rem) {
-  .selected-publications-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-}
 .selected-publication { margin-bottom: 1.25rem; }
+
+.selected-publication-category {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.75rem;
+  row-gap: 0.125rem;
+}
+.selected-publication-category > span { display: inline-block; }
