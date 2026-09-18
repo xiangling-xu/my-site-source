@@ -720,3 +720,9 @@
 .home-affiliation-centre {
   margin-top: 0;
 }
+
+/* Three selected papers share a row when the research page has enough space. */
+@media (min-width: 64rem) {
+  .selected-publications-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+.selected-publication { margin-bottom: 1.25rem; }
