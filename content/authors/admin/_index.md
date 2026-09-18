@@ -178,4 +178,4 @@ I am a mathematical physicist working in quantum information and foundations. My
 
 Since October 2023, I have been a PhD student with PhIQuS at Inria Saclay, supervised by [Marc-Olivier Renou](https://marcolivierrenou.com/).
 
-Feel free to reach me at *xu[dot]xiangling[at]inria[dot]fr* or check out my [CV](/uploads/CV_phdphase.pdf) in the navigation bar.
+Feel free to reach me at *xu[dot]xiangling[at]inria[dot]fr*, or check out my [CV](/uploads/CV_phdphase.pdf).

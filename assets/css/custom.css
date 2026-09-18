@@ -101,7 +101,7 @@
 }
 
 .biography-on-top .avatar-wrapper {
-  width: min(304px, 34svh, 100%) !important;
+  width: min(320px, 37svh, 100%) !important;
   height: auto !important;
   aspect-ratio: 1;
 }
@@ -278,7 +278,7 @@
 
 @media (max-width: 47.999rem) and (max-height: 47.5rem) {
   .biography-on-top .resume-biography { padding-top: 4rem; }
-  .biography-on-top .avatar-wrapper { width: min(260px, 30svh, 100%) !important; }
+  .biography-on-top .avatar-wrapper { width: min(280px, 33svh, 100%) !important; }
 }
 
 /* Stacked entries on larger screens only need a rule just beyond their text. */
@@ -703,3 +703,20 @@
   color: #64748b;
 }
 .dark .biography-on-top .bio-text .home-language-note { color: #94a3b8; }
+
+/* Explain Inria in Chinese without squeezing its name into a narrow column. */
+.home-education-affiliation .home-affiliation-full-name {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+.home-affiliation-full-name > span {
+  display: block;
+  line-height: 1.35;
+}
+.home-affiliation-centre {
+  margin-top: 0;
+}

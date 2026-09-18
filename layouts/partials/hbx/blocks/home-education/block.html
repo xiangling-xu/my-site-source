@@ -19,7 +19,7 @@
       </div>
       <div class="home-education-details">
         <h3 class="home-education-degree text-gray-900 dark:text-white">{{ partial "home-language-text.html" .degree }}</h3>
-        {{ with .research_affiliation }}<p class="home-education-affiliation" aria-label="Research affiliation: {{ . }}">{{ partial "home-language-text.html" . }}</p>{{ end }}
+        {{ with .research_affiliation }}<p class="home-education-affiliation" aria-label="Research affiliation: {{ . }}">{{ if eq . "Inria Saclay" }}<span data-home-language="en" lang="en">{{ . }}</span><span class="home-affiliation-full-name" data-home-language="zh" lang="zh-Hans" hidden><span>法国国家信息与自动化研究所</span><span class="home-affiliation-centre">萨克雷中心</span></span>{{ else }}{{ partial "home-language-text.html" . }}{{ end }}</p>{{ end }}
       </div>
       <p class="home-education-meta text-gray-500 dark:text-gray-400"><span>{{ partial "home-language-text.html" .institution_short }}</span> · <span>{{ partial "home-language-text.html" .location }}</span> · <span>{{ partial "home-language-text.html" .dates }}</span></p>
     </li>
